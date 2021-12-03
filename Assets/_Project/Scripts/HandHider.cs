@@ -20,6 +20,7 @@ public class HandHider : MonoBehaviour
 
     private void ShowHand(SelectExitEventArgs exitEventArgs)
     {
+        XRBaseInteractable grabInteractable = (XRBaseInteractable) exitEventArgs.interactableObject;
         this.gameObject.SetActive(true);
     }
 
