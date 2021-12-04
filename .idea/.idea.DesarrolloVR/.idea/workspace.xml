@@ -28,8 +28,11 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47E5D30-74A6-4D94-A476-63CB1C10FEE5/52/ff0e00f9/IXRSelectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/XRBaseInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/NestedInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/MultiSocketInteractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/XRInteractionEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
@@ -37,8 +40,10 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.2.0/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Controllers/ActionBasedController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Controllers/XRBaseController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/HandHider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/TeleportationSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47E5D30-74A6-4D94-A476-63CB1C10FEE5/a0/bb4a8e86/IXRActivateInteractable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -46,10 +51,10 @@
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/AxisDragInteractable.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/HandHider.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/TeleportationSwitcher.cs" />
-      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/NestedInteractor.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/NestedInteractor1.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/DigitalWatch.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/MultiSocketInteractor.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/NestedInteractor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21jEdhWm2egyJWIMyihUs8chJey" />
@@ -96,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638446188698</updated>
       <workItem from="1638446194397" duration="7928000" />
-      <workItem from="1638606325078" duration="3028000" />
+      <workItem from="1638606325078" duration="6848000" />
     </task>
     <servers />
   </component>
