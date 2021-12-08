@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4939f8f-f9de-405f-bad8-c006f1fc4371" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesarrolloVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesarrolloVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/CannonInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/CannonInteractable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/CannonInteractable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/CannonInteractable.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Inputs/Simulation/XRSimulatedHMDState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE28439F-7B01-4FC3-8435-D198C0640FF7/ee/153a702e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/SlientXRDialIInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/TeleportationSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,6 +73,7 @@
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ClimberInteractable.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ClimberLocomotion.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/CannonInteractable.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/SlientXRDialIInteractable.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21jEdhWm2egyJWIMyihUs8chJey" />
@@ -122,7 +123,7 @@
       <workItem from="1638446194397" duration="7928000" />
       <workItem from="1638606325078" duration="15174000" />
       <workItem from="1638791673483" duration="10035000" />
-      <workItem from="1638973175699" duration="1612000" />
+      <workItem from="1638973175699" duration="2665000" />
     </task>
     <servers />
   </component>
