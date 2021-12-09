@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4939f8f-f9de-405f-bad8-c006f1fc4371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesarrolloVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesarrolloVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/CannonInteractable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/CannonInteractable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Playground.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/CannonInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/CannonInteractable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
