@@ -1894,6 +1894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcb473f015c6a0479e151b0eeebf66d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftControllerPosAction: {fileID: -2024308242397127297, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightControllerPosAction: {fileID: -3326005586356538449, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  playerMoveProvider: {fileID: 919230772}
+  characterController: {fileID: 5309475914373939696}
 --- !u!1 &1267790606
 GameObject:
   m_ObjectHideFlags: 0
@@ -4472,6 +4476,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1472240158}
+    - target: {fileID: 751657377, guid: a578ceb5f68fa8546bdee4112c834208, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1061016737, guid: a578ceb5f68fa8546bdee4112c834208, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -4586,7 +4594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4870154051654912521, guid: a578ceb5f68fa8546bdee4112c834208, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a578ceb5f68fa8546bdee4112c834208, type: 3}
