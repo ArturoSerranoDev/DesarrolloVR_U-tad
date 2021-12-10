@@ -7,21 +7,30 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class CannonInteractable : MonoBehaviour
 {
-    // VARIABLES
+    [SerializeField] private XROrigin playerOrigin;
+    [SerializeField] private XRInteractionManager interactionManager;
+
     [Header("Interactables")]
     [SerializeField] private DialInteractable handleRotateCannon;
     [SerializeField] private DialInteractable handleRotateWheel;
 
     [SerializeField] private XRSimpleInteractable shootButtonInteractable;
-    [SerializeField] private XRSocketInteractor dropObjectsArea;
+    [SerializeField] private XRSimpleInteractable playerShuttleInteractable;
+    [SerializeField] private XRSocketInteractor dropObjectsAreaSocket;
 
     [Header("Objects")]
     [SerializeField] private GameObject cannon;
     [SerializeField] private GameObject wheels;
     [SerializeField] private GameObject cannonStructure;
 
+    [SerializeField] private GameObject playerShootArea;
+
     private float lastHandleCannonRotation = 0;
     private float lastHandleWheelsRotation = 0;
+
+    private XRBaseInteractable interactableInSocket;
+    private bool isPlayerOnCannon;
+    private bool isShootCoroutinePlaying;
 
     private void OnEnable()
     {
@@ -29,8 +38,9 @@ public class CannonInteractable : MonoBehaviour
         handleRotateWheel.OnDialChanged.AddListener(MoveCannon);
 
         shootButtonInteractable.activated.AddListener(ShootButtonActivated);
+        playerShuttleInteractable.selectEntered.AddListener(PutPlayerOntoCannon);
 
-        dropObjectsArea.selectEntered.AddListener(DropAreaSelected);
+        dropObjectsAreaSocket.selectEntered.AddListener(DropAreaSelected);
     }
 
     private void OnDisable()
@@ -39,19 +49,79 @@ public class CannonInteractable : MonoBehaviour
         handleRotateWheel.OnDialChanged.RemoveListener(MoveCannon);
 
         shootButtonInteractable.activated.RemoveListener(ShootButtonActivated);
+        playerShuttleInteractable.selectEntered.RemoveListener(PutPlayerOntoCannon);
 
-        dropObjectsArea.selectEntered.RemoveListener(DropAreaSelected);
-
+        dropObjectsAreaSocket.selectEntered.RemoveListener(DropAreaSelected);
     }
 
-    private void DropAreaSelected(SelectEnterEventArgs arg0)
+    private void PutPlayerOntoCannon(SelectEnterEventArgs arg0)
     {
-        throw new NotImplementedException();
+        playerOrigin.transform.position = playerShootArea.transform.position;
+        playerOrigin.transform.rotation = playerShootArea.transform.rotation;
+
+        isPlayerOnCannon = true;
     }
 
     private void ShootButtonActivated(ActivateEventArgs arg0)
     {
-        throw new NotImplementedException();
+        StartCoroutine(Shoot());
+    }
+
+    private IEnumerator Shoot()
+    {
+        if (isShootCoroutinePlaying)
+            yield break;
+
+        // SFX timer ticking
+        isShootCoroutinePlaying = true;
+
+        yield return new WaitForSeconds(3f);
+
+        if (interactableInSocket)
+        {
+            ShootObject();
+        }
+        else if (isPlayerOnCannon)
+        {
+            ShootPlayer();
+        }
+        else
+        {
+            // Play Fail SFX
+        }
+
+        StartCoroutine(DisableSocketInteractorWhenShooting());
+        isShootCoroutinePlaying = false;
+        isPlayerOnCannon = false;
+        interactableInSocket = null;
+    }
+
+    private IEnumerator DisableSocketInteractorWhenShooting()
+    {
+        dropObjectsAreaSocket.enabled = false;
+
+        yield return new WaitForSecondsRealtime(1f);
+
+        dropObjectsAreaSocket.enabled = true;
+    }
+
+    private void ShootPlayer()
+    {
+        Rigidbody playerRigidbody = playerOrigin.GetComponent<Rigidbody>();
+        playerRigidbody.isKinematic = false;
+
+        playerRigidbody.AddForce(playerShootArea.transform.forward * 1000);
+    }
+
+    private void ShootObject()
+    {
+        var interactableInSocket = dropObjectsAreaSocket.firstInteractableSelected;
+
+        // Force socket to unselect object
+        interactionManager.CancelInteractorSelection(dropObjectsAreaSocket);
+
+        // Shoot object with force
+        interactableInSocket.transform.GetComponent<Rigidbody>().AddForce(dropObjectsAreaSocket.attachTransform.forward * 1000);
     }
 
     private void MoveCannon(DialInteractable arg0)
@@ -86,6 +156,14 @@ public class CannonInteractable : MonoBehaviour
 
         lastHandleCannonRotation = arg0.CurrentAngle;
     }
+
+
+    private void DropAreaSelected(SelectEnterEventArgs arg0)
+    {
+        // Store object socketed 
+        interactableInSocket = (XRBaseInteractable)arg0.interactableObject;
+    }
+
 
     // THINGS TO DO
 
