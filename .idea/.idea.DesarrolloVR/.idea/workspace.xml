@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c4939f8f-f9de-405f-bad8-c006f1fc4371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesarrolloVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesarrolloVR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,6 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactables/IXRHoverInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Inputs/Simulation/XRSimulatedHMDState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE28439F-7B01-4FC3-8435-D198C0640FF7/ee/153a702e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/SlientXRDialIInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Editor/Debugger/XRInteractorsTreeView.cs" root0="SKIP_HIGHLIGHTING" />
@@ -46,15 +48,15 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/XRBaseControllerInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Locomotion/Continuous/DeviceBasedContinuousMoveProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Programming/Innerspace/InnerSim/Library/PackageCache/eu.innerspace.inneractions@825e4c24b9/Base/Scripts/PlayerCharacter/PlayerCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47E5D30-74A6-4D94-A476-63CB1C10FEE5/52/ff0e00f9/IXRSelectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/XRBaseInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/NestedInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/HandSide.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Locomotion/Continuous/ActionBasedContinuousMoveProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/MultiSocketInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47E5D30-74A6-4D94-A476-63CB1C10FEE5/2e/300419e4/IXRHoverInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47E5D30-74A6-4D94-A476-63CB1C10FEE5/2e/300419e4/IXRHoverInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.2.0/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Controllers/ActionBasedController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.0-pre.5/Runtime/Interaction/Controllers/XRBaseController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -75,9 +77,10 @@
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/HandSide.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/SelfieStick.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ClimberInteractable.cs" />
-      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ClimberLocomotion.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/SlientXRDialIInteractable.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ClimberLocomotion.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Interactables/CannonInteractable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FreeCamera.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21jEdhWm2egyJWIMyihUs8chJey" />
@@ -130,6 +133,9 @@
       <workItem from="1638973175699" duration="2665000" />
       <workItem from="1639002780330" duration="3172000" />
       <workItem from="1639039576005" duration="3293000" />
+      <workItem from="1639085962033" duration="716000" />
+      <workItem from="1641127048237" duration="507000" />
+      <workItem from="1642152938772" duration="1267000" />
     </task>
     <servers />
   </component>
